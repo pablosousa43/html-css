@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídia em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <P>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</P>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audios em html5</p>
+<audio preload="metadata" controls loop>
+    <source src="midia/Willow Gozilla (feat. Rusty James Miller) - Zenith Bikini.mp3" type="audio/mp3">
+    <source src="midia/audio - Copia (2).ogg" type="audio/ogg"> 
+    <source src="midia/audio - Copia.wav" type="audio/wav">
+    <p>Seu navegador, não é compativel com o audio <a href="donwload/audio.zip" type="apllication/zip">baixe aqui o mp3</a></p>
+
+</audio>
+</body>
+</html>
