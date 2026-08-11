@@ -33,7 +33,7 @@ header h1{
     font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 10vw;
+    font-size: 5vw;
 }
 
 header p {
@@ -55,13 +55,38 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 5vw;
+    font-size: 3vw;
+}
+
+section p{
+    padding-bottom: 2em;
+}
+section.imagem{
+    background-color: rgb(80, 80, 80);
+    color: white;
+    box-shadow: 10px 10px 14px 10px rgba(0, 0, 0, 0.459);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem p{
-background-color: rgb(70, 70, 70);
+background-color: rgba(70, 70, 70, 0.329);
 width: 400px;
 padding-left: 20px;
+box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.164);
+}
+
+section#img01{
+    background-image: url('imagens/Wenn\ der\ Lärm\ der\ Welt\ verstummt\,\ beginnt\ das….jpg');
+
+    background-position: left bottom;
+    text-shadow: 2px 2px 0px black;
+  
+}
+section#img02{
+    background-image: url('imagens/joaninha-vermelha.png');
+
 }
 
 section.normal{
@@ -69,10 +94,6 @@ section.normal{
     color: black;
 }
 
-section.imagem{
-    background-color: rgb(80, 80, 80);
-    color: white;
-}
 
 footer{
     background-color: black;
