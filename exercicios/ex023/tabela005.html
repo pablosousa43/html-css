@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    th, td{
+        border: 1px solid black;
+        padding: 10px;
+    }
+    #csxnm{
+        background-color: rgba(253, 238, 217, 0.904);
+    }
+    #idpro{
+        background-color: rgb(253, 219, 175);
+    }
+</style>
+
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col id="csxnm" span="2">
+            <col id="idpro" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th>sexo</th>
+            <th>idade</th>
+            <th>profissão</th>
+        </tr>
+        <tr>
+            <td>ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>23</td>
+            <td>programador</td>
+        </tr>
+        <tr>
+            <td>Yasmin</td>
+            <td>F</td>
+            <td>33</td>
+            <td>faxineira</td>
+        </tr>
+        <tr>
+            <td>Vitor</td>
+            <td>M</td>
+            <td>49</td>
+            <td>Desembargador</td>
+        </tr>
+        <tr>
+            <td>Patricia</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Recepsionista</td>
+        </tr>
+        <tr>
+            <td>fernanda</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Manicure</td>
+        </tr>
+    </table>
+</body>
+</html>
